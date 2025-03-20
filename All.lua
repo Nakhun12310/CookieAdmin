@@ -3387,4 +3387,4 @@ if not inDatabase then
 	})
 end
 
-debugPrint("QuirkyCMD loaded successfully!
+debugPrint("CookieAdmin loaded successfully!
