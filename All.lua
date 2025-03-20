@@ -1,6 +1,6 @@
---{ QuirkyCMD made by quirky anime boy (smokedoutlocedout on discord) }--
+--{ CookieAdmin made by Seraphina (CookieHub on discord) }--
 -- ty Destiny for adding more exec support <3
--- Discord server for working games: https://discord.gg/aG6KdRje3x
+-- Discord server for working scripts: https://discord.gg/hxMDEsvEEh
 local cloneref = cloneref or function(a) return a end
 local coreGui = cloneref(game:GetService("CoreGui"))
 local players = cloneref(game:GetService("Players"))
@@ -30,7 +30,7 @@ local gethui = gethui or function()
 end
 
 local quirkycmd = Instance.new("ScreenGui", gethui())
-quirkycmd.Name = "quirkyCMD"
+quirkycmd.Name = "CookieAdmin"
 quirkycmd.IgnoreGuiInset = true
 quirkycmd.ScreenInsets = Enum.ScreenInsets.DeviceSafeInsets
 quirkycmd.ResetOnSpawn = false
@@ -56,10 +56,10 @@ uicorner.Name = "UICorner"
 uicorner.CornerRadius = UDim.new(0, 3)
 uicorner.Parent = remotepath
 
-remotepath.Parent = quirkycmd
+remotepath.Parent = CookieAdmin
 
 local cmdbox = Instance.new("TextBox")
-cmdbox.Name = "cmdBox"
+cmdbox.Name = "CommandsBox"
 cmdbox.FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json")
 cmdbox.PlaceholderText = "ERROR"
 cmdbox.Text = ""
